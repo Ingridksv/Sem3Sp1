@@ -23,7 +23,7 @@ public class Main
       //  MovieDTO movie = movieService.fetchMovieById(550);
       //  System.out.println("Film: " + movie);
 
-        //Hent danske film
+        //Hent danske film.
         System.out.println("Danske film fra de sidste 5 år");
         for (MovieDTO m : movieService.fetchDanishMoviesFromTheLastFiveYears()){
             System.out.println(m);
