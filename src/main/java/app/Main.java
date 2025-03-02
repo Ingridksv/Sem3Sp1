@@ -28,7 +28,5 @@ public class Main
         for (MovieDTO m : movieService.fetchDanishMoviesFromTheLastFiveYears()){
             System.out.println(m);
         }
-
-
     }
 }

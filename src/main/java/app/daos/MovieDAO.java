@@ -69,5 +69,4 @@ public class MovieDAO
             em.close();
         }
     }
-
 }

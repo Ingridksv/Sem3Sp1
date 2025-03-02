@@ -10,7 +10,7 @@ public class Utils
 {
     public static String getPropertyValue(String propName, String resourceName)  {
         // REMEMBER TO BUILD WITH MAVEN FIRST. Read the property file if not deployed (else read system vars instead)
-        // Read from ressources/config.properties or from pom.xml depending on the ressourceName
+        // Read from ressources/config.properties or from pom.xml depending on the ressourceName.
         try (InputStream is = Utils.class.getClassLoader().getResourceAsStream(resourceName)) {
             Properties prop = new Properties();
             prop.load(is);

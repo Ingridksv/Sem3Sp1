@@ -24,8 +24,8 @@ public class Genre
     @ManyToMany(mappedBy = "genres")
     private Set<Movie> movies;
 
-    public Genre(String name){
+    public Genre(String name)
+    {
         this.name = name;
     }
-
 }

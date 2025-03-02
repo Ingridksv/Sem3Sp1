@@ -26,5 +26,4 @@ public class Actor
         this.name = name;
         this.character = character;
     }
-
 }
